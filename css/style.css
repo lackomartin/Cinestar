@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1d3c;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+header p {
+    text-align: right;
+    margin: 20px 50px;
+    font-size: 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    height: 20px;
+    font-weight: 700;
+}
+
+header a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#main-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+select {
+    margin-left: 10px;
+    padding: 5px 50px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.index {
+    width: 50%;
+    padding: 5px 0;
+    margin: 50px 25%;
+    background-color: #101125;
+    pointer-events: none;
+}
+
+.index-row {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item {
+    font-size: 12px;
+    margin-left: 8px;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+.canvas {
+    width: 50%;
+    height: 80px;
+    margin-left: 25%; 
+    margin-top: 50px;
+    background-color: #ecf0f1;
+    border-radius: 3px;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+}
+
+.seats-container {
+    width: 50%;
+    margin: 20px 25%;
+}
+
+.row {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.seat {
+    width: 25px;
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #34495e;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.seat:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.row span {
+    width: 20px;
+}
+
+.occupied {
+    background-color: #ecf0f1;
+    pointer-events: none;
+}
+
+.selected {
+    background-color: #22a6b3;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 span {
+    color: #22a6b3;
+}
+
+.get-tickets {
+    width: 25%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 37.5%;
+    background-color: #f1c40f;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+}
+
+.get-tickets:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(245,212,79,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(245,212,79,1);
+    box-shadow: 0px 0px 15px 0px rgba(245,212,79,1);
+}
+
+/* LOGIN PAGE */
+.form-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.form-section h1 {
+    text-align: center;
+    color: #454545;
+    text-transform: uppercase;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+.login-form input {
+    width: 80%;
+    height: 45px;
+    padding-left: 5px;
+    border: none;
+    margin: 5px 10%;
+    background-color: #e6e3e3;
+    border-radius: 2px;
+}
+
+.login-form input:focus {
+    outline: none;
+}
+
+.login-form p {
+    color: #000;
+    margin-left: 10%;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login-form a {
+    color: #000;
+    font-weight: 700;
+}
+
+.form-section button{
+    width: 80%;
+    margin: 25px 10%;
+    border: none;
+    height: 45px;
+    cursor: pointer;
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+    border-radius: 2px;
+}

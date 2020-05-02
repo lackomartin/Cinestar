@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cinestar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section id="main-section">
+            <header>
+                <label for="movie">Select a movie: </label>
+                <select id="movie">
+                    <option value="8">Movie 1 ($8)</option>
+                    <option value="6">Movie 2 ($6)</option>
+                    <option value="7">Movie 3 ($7)</option>
+                    <option value="5">Movie 4 ($5)</option>
+                </select>
+            </header>
+
+            <div class="index">
+                <div class="index-row">
+                    <p class="item">N/A</p>
+                    <div class="seat"></div>
+                    <p class="item">Selected</p>
+                    <div class="seat selected"></div>
+                    <p class="item">Occupied</p>
+                    <div class="seat occupied"></div>
+                </div>
+            </div>
+
+            <div class="movie-hall">
+                <div class="canvas"></div>
+                <div class="seats-container">
+                    <div class="row">
+                        <div class="seat" title="Row A Seat 1"></div>
+                        <div class="seat" title="Row A Seat 2"></div>
+                        <span></span>
+                        <div class="seat" title="Row A Seat 3"></div>
+                        <div class="seat" title="Row A Seat 4"></div>
+                        <div class="seat" title="Row A Seat 5"></div>
+                        <div class="seat" title="Row A Seat 6"></div>
+                        <span></span>
+                        <div class="seat" title="Row A Seat 7"></div>
+                        <div class="seat" title="Row A Seat 8"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="seat" title="Row B Seat 1"></div>
+                        <div class="seat" title="Row B Seat 2"></div>
+                        <span></span>
+                        <div class="seat" title="Row B Seat 3"></div>
+                        <div class="seat" title="Row B Seat 4"></div>
+                        <div class="seat" title="Row B Seat 5"></div>
+                        <div class="seat" title="Row B Seat 6"></div>
+                        <span></span>
+                        <div class="seat" title="Row B Seat 7"></div>
+                        <div class="seat" title="Row B Seat 8"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="seat" title="Row C Seat 1"></div>
+                        <div class="seat" title="Row C Seat 2"></div>
+                        <span></span>
+                        <div class="seat" title="Row C Seat 3"></div>
+                        <div class="seat" title="Row C Seat 4"></div>
+                        <div class="seat" title="Row C Seat 5"></div>
+                        <div class="seat" title="Row C Seat 6"></div>
+                        <span></span>
+                        <div class="seat" title="Row C Seat 7"></div>
+                        <div class="seat" title="Row C Seat 8"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="seat" title="Row D Seat 1"></div>
+                        <div class="seat" title="Row D Seat 2"></div>
+                        <span></span>
+                        <div class="seat" title="Row D Seat 3"></div>
+                        <div class="seat" title="Row D Seat 4"></div>
+                        <div class="seat" title="Row D Seat 5"></div>
+                        <div class="seat" title="Row D Seat 6"></div>
+                        <span></span>
+                        <div class="seat" title="Row D Seat 7"></div>
+                        <div class="seat" title="Row D Seat 8"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="seat" title="Row E Seat 1"></div>
+                        <div class="seat" title="Row E Seat 2"></div>
+                        <span></span>
+                        <div class="seat" title="Row E Seat 3"></div>
+                        <div class="seat" title="Row E Seat 4"></div>
+                        <div class="seat" title="Row E Seat 5"></div>
+                        <div class="seat" title="Row E Seat 6"></div>
+                        <span></span>
+                        <div class="seat" title="Row E Seat 7"></div>
+                        <div class="seat" title="Row E Seat 8"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="seat" title="Row F Seat 1"></div>
+                        <div class="seat" title="Row F Seat 2"></div>
+                        <span></span>
+                        <div class="seat" title="Row F Seat 3"></div>
+                        <div class="seat" title="Row F Seat 4"></div>
+                        <div class="seat" title="Row F Seat 5"></div>
+                        <div class="seat" title="Row F Seat 6"></div>
+                        <span></span>
+                        <div class="seat" title="Row F Seat 7"></div>
+                        <div class="seat" title="Row F Seat 8"></div>
+                    </div>
+                </div>
+            </div>
+
+            <h1>You have selected <span id="seats-num">0</span> seats for price of $<span id="price">0</span></h1>
+
+            <button class="get-tickets">Get tickets</button>
+        </section>
+
+        <!-- Javascript -->
+        <script src="js/index.js"></script>
+    </body>
+</html>
