@@ -10,23 +10,6 @@ body {
     color: #fff;
 }
 
-header p {
-    text-align: right;
-    margin: 20px 50px;
-    font-size: 15px;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    height: 20px;
-    font-weight: 700;
-}
-
-header a:hover {
-    border-bottom: 1px solid #fff;
-}
-
 #main-section {
     position: absolute;
     top: 50%;
@@ -145,63 +128,4 @@ h1 span {
     -webkit-box-shadow: 0px 0px 15px 0px rgba(245,212,79,1);
     -moz-box-shadow: 0px 0px 15px 0px rgba(245,212,79,1);
     box-shadow: 0px 0px 15px 0px rgba(245,212,79,1);
-}
-
-/* LOGIN PAGE */
-.form-section {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 15px 0;
-    border-radius: 5px;
-}
-
-.form-section h1 {
-    text-align: center;
-    color: #454545;
-    text-transform: uppercase;
-    margin: 15px 0;
-    letter-spacing: 1px;
-}
-
-.login-form input {
-    width: 80%;
-    height: 45px;
-    padding-left: 5px;
-    border: none;
-    margin: 5px 10%;
-    background-color: #e6e3e3;
-    border-radius: 2px;
-}
-
-.login-form input:focus {
-    outline: none;
-}
-
-.login-form p {
-    color: #000;
-    margin-left: 10%;
-    margin-top: 15px;
-    font-size: 12px;
-}
-
-.login-form a {
-    color: #000;
-    font-weight: 700;
-}
-
-.form-section button{
-    width: 80%;
-    margin: 25px 10%;
-    border: none;
-    height: 45px;
-    cursor: pointer;
-    background-color: #f1c40f;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    color: white;
-    border-radius: 2px;
 }
